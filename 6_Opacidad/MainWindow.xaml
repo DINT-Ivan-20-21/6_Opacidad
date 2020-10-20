@@ -5,6 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_6_Opacidad"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid />
+        Title="MainWindow"
+        Height="450"
+        Width="780"
+        Icon="assets/icon.ico">
+    <Grid>
+        <Image HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Width="200"
+               Height="320"
+               Opacity="0.5"
+               Margin="40,50,0,0"
+               Source="assets/episodioIV.jpg"
+               MouseEnter="entrar_MouseEnter"
+               MouseLeave="salir_MouseLeave"/>
+        <Image HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Width="200"
+               Height="320"
+               Opacity="0.5"
+               Margin="280,50,0,0"
+               Source="assets/episodioV.jpg"
+               MouseEnter="entrar_MouseEnter"
+               MouseLeave="salir_MouseLeave"/>
+        <Image HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Width="200"
+               Height="320"
+               Opacity="0.5"
+               Margin="520,50,0,0"
+               Source="assets/episodioVI.jpg"
+               MouseEnter="entrar_MouseEnter"
+               MouseLeave="salir_MouseLeave"/>
+    </Grid>
 </Window>
